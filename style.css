@@ -1,0 +1,266 @@
+@import url(font.css);
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  padding-bottom: 77px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+nav .navBox {
+  width: 90%;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .right {
+  font-size: 0.7em;
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav .right a {
+  padding: 0 0.5em;
+}
+
+nav .right a:hover {
+  color: rgb(200, 0, 0);
+  text-decoration: none;
+}
+
+#home {
+  width: 100%;
+  min-height: 400px;
+  background-color: #0f0f0f;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#home .imgContainer {
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#home .profileImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#home .greetingBox {
+  margin-top: 20px;
+  /* 줄간간격 */
+  line-height: 35px;
+  color: rgb(255, 255, 255);
+}
+
+#home .greeting {
+  font-size: 24px;
+}
+
+#home .introduce {
+  font-size: 18px;
+}
+
+#home .contactBox {
+  margin-top: 77px;
+  font-size: 15px;
+}
+
+#home .contactBtn {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+}
+
+.title {
+  font-size: 3em;
+  padding: 2em 0 1em 0;
+  font-family: "Staatliches", cursive;
+}
+#skills {
+  margin: 0 auto;
+  background-color: #edecea;
+}
+
+#skills .skills-body {
+  width: 77%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+#skills .skillsBox {
+  width: 17em;
+  border: 1px solid #c4bcb8;
+  /* display: block; */
+  border-radius: 5%;
+  margin: 0 0 2em 0;
+  background-color: #e2dfd8;
+  box-shadow: 5px 5px 5px 5px #c4bcb8;
+}
+
+.skillsBox h2 {
+  width: 77%;
+  margin: 0 auto;
+  padding: 7px 0;
+  font-size: 2em;
+  font-family: "Staatliches", cursive;
+  border-bottom: 1px solid #000;
+}
+
+.skillsBox .skillsContent {
+  margin: 1em 0;
+}
+
+#contact {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+#contact .contact-body form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact form p {
+  margin: 15px 0;
+}
+
+#contact form .input {
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+#contact form .name {
+  height: 40px;
+}
+
+#contact form .textarea {
+  min-height: 150px;
+}
+
+.contactList li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  width: 50%;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+footer p {
+  width: 100%;
+}
+
+.footerBox {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: #edecea;
+}
+
+.footerBox .snsBox {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 3px double;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.email {
+  color: #db4437;
+}
+
+.phoneNum {
+  color: #128c7e;
+  background: linear-gradient(to right bottom, #25d366 70%, #128c7e, #075e54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram {
+  color: #e1306c;
+  background: linear-gradient(
+    to left bottom,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook {
+  color: #4267b2;
+}
+
+.github {
+  color: #333;
+}
+
+.tistory {
+  color: #d93d04;
+}
+
+.contBox .contName {
+  margin-top: 20px;
+  font-size: 18px;
+}
